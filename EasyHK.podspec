@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'EasyHK'
-  s.version      = '0.0.2'
+  s.version      = '0.0.3'
   s.summary      = 'Making life with HealthKit easier :)'
 
   # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   # s.watchos.deployment_target = '2.0'
   # s.tvos.deployment_target = '9.0'
 	
-	s.source       = { :git => 'https://github.com/matuella/EasyHK.git', :tag => s.version.to_s }
+	s.source       = { :git => 'https://github.com/CocoaPods/Specs.git', :tag => s.version.to_s }
   s.source_files  = 'Classes', 'EasyHK/Classes/**/*.{swift}'
   s.swift_version = '4.0'
 end
