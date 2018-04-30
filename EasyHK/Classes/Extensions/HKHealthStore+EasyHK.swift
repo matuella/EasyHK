@@ -33,10 +33,11 @@ extension HKHealthStore {
         
         var writableAccesses = Set<HKSampleType>()
         var readableAccesses = Set<HKObjectType>()
-        
-        var unauthorizedAccesses = [EasyHKAccess]()
-        var unavailableReadableAccesses = [EasyHKReadable]()
-        var unavailableWritableAccesses = [EasyHKWritable]()
+
+        //TODO: Finish to return the respective errors.
+//        var unauthorizedAccesses = [EasyHKAccess]()
+//        var unavailableReadableAccesses = [EasyHKReadable]()
+//        var unavailableWritableAccesses = [EasyHKWritable]()
         
         for access in accesses {
             if let associatedObjectType = access.readAccess?.associatedObjectType {
