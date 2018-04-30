@@ -28,4 +28,5 @@ Pod::Spec.new do |s|
 	
 	s.source       = { :git => 'https://github.com/matuella/EasyHK.git', :tag => s.version.to_s }
   s.source_files  = 'Classes', 'EasyHK/Classes/**/*.{swift}'
+  # s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4' }
 end
