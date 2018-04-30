@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'EasyHK'
-  s.version      = '0.0.3'
+  s.version      = '0.0.4'
   s.summary      = 'Making life with HealthKit easier :)'
 
   # This description is used to generate tags and improve search results.
